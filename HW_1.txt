@@ -88,4 +88,55 @@ insert into employees(employee_name)
 
 select * from employees;
 Выполнить SQL запрос
+2)Таблица salary
+
+Создать таблицу salary
+- id. Serial  primary key,
+- monthly_salary. Int, not null
+Наполнить таблицу salary  строками:
+- 1000
+- 1100
+- 1200
+- 1300
+- 1400
+- 1500
+- 1600
+- 1700
+- 1800
+- 1900
+- 2000
+- 2100
+- 2200
+- 2300
+- 2400
+- 2500
+
+
+create table salary1( 
+	id serial primary key,
+	monthly_salary int not null
+);
+Выполнить SQL запрос
+
+insert into salary1(monthly_salary)
+values  ('1000'),
+		('1100'),
+		('1200'),
+		('1300'),
+		('1400'),
+		('1500'),
+		('1600'),
+		('1700'),
+		('1800'),
+		('1900'),
+		('2000'),
+		('2100'),
+		('2200'),
+		('2300'),
+		('2400'),
+		('2500');
+Выполнить SQL запрос
+
+select * from salary1;
+Выполнить SQL запрос 
 
